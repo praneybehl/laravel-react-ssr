@@ -1,11 +1,21 @@
 {
 	"name": "react-app",
 	"version": "1.0.0",
-	"description": "Sample react app",
+	"description": "laravel-react-srr-poc",
 	"main": "src/components/App.js",
-	"author": "Praney Behl",
+	"author": "Praney Behl @praneybehl",
 	"license": "MIT",
 	"private": true,
+	"keywords": [
+		"Laravel",
+		"React.js",
+		"router",
+		"reach-router",
+		"forms",
+		"ssr",
+		"server-side rendering",
+		"laravel-react"
+	],
 	"scripts": {
 		"test": "",
 		"format": "prettier --write \"src/**/*.{js,jsx}\"",
