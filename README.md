@@ -1,5 +1,5 @@
 # Laravel React SSR Proof of Concept
-This is a sample of using React.js SSR(Server side rendering) with Laravel.
+This is a sample project that uses React.js SSR(Server side rendering) with Laravel.
 It also demonstrates the use of routing and forms.
 
 There are 2 folders:
@@ -25,7 +25,7 @@ yarn dev
 ```bash
 yarn build
 ```
-_This step bundle all static resources and and adds them to: `./backend/public/` folder._
+_This step bundles all static resources and and adds them to: `./backend/public/` folder._
 
 
 ## Backend project
