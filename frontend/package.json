@@ -1,0 +1,46 @@
+{
+	"name": "react-app",
+	"version": "1.0.0",
+	"description": "Sample react app",
+	"main": "src/components/App.js",
+	"author": "Praney Behl",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"test": "",
+		"format": "prettier --write \"src/**/*.{js,jsx}\"",
+		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+		"dev": "parcel src/index.html",
+		"build:css": "parcel build src/style.css -d ../react-laravel-ssr-poc/public/css",
+		"build:client": "parcel build src/app.client.js -d ../react-laravel-ssr-poc/public/js",
+		"build:server": "parcel build src/app.server.js -d ../backend/public/js",
+		"build": "run-p build:css build:client build:server"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^10.0.1",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"eslint": "^5.7.0",
+		"eslint-config-prettier": "^3.1.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-react": "^7.11.1",
+		"express": "^4.16.4",
+		"npm-run-all": "^4.1.3",
+		"parcel-bundler": "^1.10.3",
+		"prettier": "^1.14.3"
+	},
+	"dependencies": {
+		"@reach/router": "^1.2.1",
+		"babel-plugin-transform-async-to-generator": "^6.24.1",
+		"classnames": "^2.2.6",
+		"formik": "^1.4.0",
+		"react": "15.x || 16.x || 16.4.0-alpha.0911da3",
+		"react-dom": "15.x || 16.x || 16.4.0-alpha.0911da3",
+		"src": "^1.1.2",
+		"yup": "^0.26.6"
+	}
+}
