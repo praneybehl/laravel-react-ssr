@@ -11,7 +11,7 @@ There are 2 folders:
 To get started, do the following:
 
 Swtich to the frontend folder:
-`_cd frontend_`
+_`cd frontend`_
 
 1. Install npm packages:
 ```bash
@@ -35,7 +35,7 @@ _This step bundles all static resources and and adds them to: `./backend/public/
 This project uses the [spatie/laravel-server-side-rendering](https://github.com/spatie/laravel-server-side-rendering) package.
 
 Swtich to the backend folder:
-`_cd backend_`
+_`cd backend`_
 
 To get started:
 
