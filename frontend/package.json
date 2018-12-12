@@ -11,8 +11,8 @@
 		"format": "prettier --write \"src/**/*.{js,jsx}\"",
 		"lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
 		"dev": "parcel src/index.html",
-		"build:css": "parcel build src/style.css -d ../react-laravel-ssr-poc/public/css",
-		"build:client": "parcel build src/app.client.js -d ../react-laravel-ssr-poc/public/js",
+		"build:css": "parcel build src/style.css -d ../backend/public/css",
+		"build:client": "parcel build src/app.client.js -d ../backend/public/js",
 		"build:server": "parcel build src/app.server.js -d ../backend/public/js",
 		"build": "run-p build:css build:client build:server"
 	},
