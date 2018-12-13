@@ -39,8 +39,14 @@ _`cd backend`_
 
 To get started:
 
-1. Set up the NODE_PATH environment variable in your .env:
+1. Install composer packages
+```
+composer install
+```
+
+2. Set up the NODE_PATH environment variable in your .env:
 ```bash
+ENV=production
 NODE_PATH=/path/to/my/node
 ```
 for nvm users:
@@ -50,7 +56,7 @@ NODE_PATH='/Users/<USERNAME>/.nvm/versions/node/v<NODE_VERSION>/bin/node'
 ```
 
 
-2. Run:
+3. Run:
 ```bash
 php artisan serve
 ```
